@@ -35,3 +35,9 @@ def test_parens_match_df2():
     assert parens_match_dc(['(', '(', ')']) == False
     assert parens_match_dc(['(', 'a', ')', ')', '(']) == False
     assert parens_match_dc([]) == True 
+
+# python3 test_main.py
+if __name__ == '__main__':
+  print("Testing parens_match_iterative()")
+  test_parens_match_iterative()
+  
